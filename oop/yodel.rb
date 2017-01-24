@@ -10,8 +10,18 @@
 
 class Yodel
 
-end
+  attr_reader :segment, :count
 
+  def initialize(segment:, count:)
+    @segment = segment
+    @count = count
+  end
+
+  def articulate
+    complete_yodel = @segment * @count
+  end
+
+end
 
 # Driver code - don't touch anything below this line.
 puts "TESTING the Yodel class..."

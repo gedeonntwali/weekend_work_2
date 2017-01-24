@@ -13,6 +13,19 @@
 # if a Superhero has a special_tool their attack is tripled
 # if a Superhero is attacked and their hitpoints are less than 1, they are no longer alive
 # Superhero needs a grab_tool method, that sets the has_special_tool attribute to true.
+class Superheros
+
+  def initialize
+
+
+
+
+
+
+
+
+
+
 
 
 # Driver code - don't touch anything below this line.

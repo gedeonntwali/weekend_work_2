@@ -1,7 +1,20 @@
 # Complete the method called palindrome? which should accept a string as a parameter and return a boolean indicated whether the string is a palindrome. A palindrome is a word that reads the same both forwards and backwards. Examples: eye, madam, racecar
 
 def palindrome?(string)
+  word1 = string.split('')
+  char = (word1.count) - 1
 
+  word2 = []
+
+  word1.each do |letter|
+    word2[char] = letter
+    char -= 1
+  end
+  if word2 == word1
+    true
+  else
+    false
+  end
 end
 
 # Driver code - don't touch anything below this line.
